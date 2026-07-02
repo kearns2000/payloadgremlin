@@ -61,3 +61,4 @@ Each tag triggers build → test → pack → trusted publish.
 - NuGet does not allow republishing the same version — bump the version for every release
 - The temporary API key from `NuGet/login@v1` expires in about an hour; push immediately after login
 - Do **not** store a `NUGET_API_KEY` secret — trusted publishing replaces that
+- Package readme images must use an [allowlisted domain](https://learn.microsoft.com/en-us/nuget/nuget-org/package-readme-on-nuget-org#allowed-domains-for-images) (e.g. `raw.githubusercontent.com`). Relative paths like `icon.png` do not render on nuget.org
