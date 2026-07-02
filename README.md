@@ -33,7 +33,9 @@ PayloadGremlin gives you:
 dotnet add package PayloadGremlin
 ```
 
-*(Package not yet published to NuGet — build from source or pack locally.)*
+See [PUBLISHING.md](PUBLISHING.md) for how releases are published via NuGet trusted publishing.
+
+*(Package may not appear on NuGet until the first `v*` tag is pushed and the trusted publishing policy is configured.)*
 
 ## Quick start
 
