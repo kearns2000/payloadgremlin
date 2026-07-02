@@ -2,6 +2,13 @@
 
 # PayloadGremlin
 
+[![.NET](https://img.shields.io/badge/.NET-10.0-512BD4?style=flat&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/download/dotnet/10.0)
+[![Build](https://github.com/kearns2000/payloadgremlin/actions/workflows/ci.yml/badge.svg)](https://github.com/kearns2000/payloadgremlin/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/github/license/kearns2000/payloadgremlin)](LICENSE)
+[![Tests](https://img.shields.io/badge/tests-xUnit-5C2D91?style=flat&logo=xunit)](tests/PayloadGremlin.Tests)
+
+**Target framework:** `net10.0` · **Language:** C# 14 · **Test runner:** xUnit
+
 **PayloadGremlin makes good JSON payloads misbehave on purpose.**
 
 PayloadGremlin is a small .NET library for generating realistic bad JSON variants from known-good payloads. Use it in unit and integration tests to find brittle deserializers, API clients, and downstream code before production does.
