@@ -1,7 +1,8 @@
-<img src="icon.png" alt="PayloadGremlin" width="128" />
+![PayloadGremlin](icon.png)
 
 # PayloadGremlin
 
+[![NuGet](https://img.shields.io/nuget/v/PayloadGremlin?style=flat&logo=nuget)](https://www.nuget.org/packages/PayloadGremlin)
 [![.NET](https://img.shields.io/badge/.NET-10.0-512BD4?style=flat&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/download/dotnet/10.0)
 [![Build](https://github.com/kearns2000/payloadgremlin/actions/workflows/ci.yml/badge.svg)](https://github.com/kearns2000/payloadgremlin/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/github/license/kearns2000/payloadgremlin)](LICENSE)
@@ -34,8 +35,6 @@ dotnet add package PayloadGremlin
 ```
 
 See [PUBLISHING.md](PUBLISHING.md) for how releases are published via NuGet trusted publishing.
-
-*(Package may not appear on NuGet until the first `v*` tag is pushed and the trusted publishing policy is configured.)*
 
 ## Quick start
 
