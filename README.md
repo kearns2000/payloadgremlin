@@ -1,4 +1,4 @@
-![PayloadGremlin](icon.png)
+![PayloadGremlin](https://raw.githubusercontent.com/kearns2000/payloadgremlin/main/icon.png)
 
 # PayloadGremlin
 
