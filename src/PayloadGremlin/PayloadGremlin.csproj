@@ -7,10 +7,10 @@
     <RootNamespace>PayloadGremlin</RootNamespace>
     <AssemblyName>PayloadGremlin</AssemblyName>
     <PackageId>PayloadGremlin</PackageId>
-    <Version>1.0.2</Version>
+    <Version>1.0.3</Version>
     <Authors>PayloadGremlin</Authors>
     <Description>Makes good JSON payloads misbehave on purpose — realistic API drift for testing deserializers and integration code.</Description>
-    <PackageTags>json;testing;mutation;api;fuzzing;contract-testing</PackageTags>
+    <PackageTags>json;testing;mutation;api;fuzzing;unittest;integration;deserialization;serializer;contract;payload;gremlin;test-data;api-testing</PackageTags>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageIcon>icon.png</PackageIcon>
